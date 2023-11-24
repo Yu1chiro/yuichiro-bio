@@ -1,2 +1,56 @@
-<!-- Copy right by : Hera
-日本語教育大学生２２ -->
+
+  <style>
+    /* Animasi loader */
+    @keyframes zoomInOut {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.5); }
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color:#040B12;
+    }
+
+    .loader {
+      width: 50px;
+      height: 50px;
+      animation: zoomInOut 1s ease-in-out infinite;
+    }
+
+    /* Styling untuk ikon anime (ganti dengan ikon sesuai keinginan Anda) */
+    .anime-icon {
+      width: 150px;
+      height: 150px;
+      background: url('./hutao1.png') center/cover; /* Ganti spasi dengan underscore (_) atau sesuaikan dengan nama file yang sebenarnya */
+    }
+
+   
+    @keyframes scaleCircle {
+      0%, 100% { transform: scale(0.5); }
+      50% { transform: scale(1.0); }
+    }
+  </style>
+</head>
+<body>
+
+    <div class="loader anime-icon">
+    </div>
+</div>
+  </div>
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      setTimeout(function () {
+        document.querySelector('.anime-icon').style.display = 'none';
+        document.body.style.backgroundColor = 'white';
+        document.getElementById('content').style.display = 'block';
+      }, 2000); // Sesuaikan dengan waktu hide pada fake loader
+    });
+  </script>
+
+
