@@ -16,8 +16,7 @@
         }, options);
         var spinner01 = '<div class="fl fl-spinner spinner1" style="display: flex; justify-content: center; align-items: center;"><img src="hutao1.png" alt="Logo" style="width: 20rem; height: 20rem; animation: zoomInOut 1s ease-in-out infinite;"></div>';
         var spinner02 = '<div class="fl fl-spinner spinner2"><div class="spinner-container container1"><div class="circle1"></div><div class="circle2"></div><div class="circle3"></div><div class="circle4"></div></div><div class="spinner-container container2"><div class="circle1"></div><div class="circle2"></div><div class="circle3"></div><div class="circle4"></div></div><div class="spinner-container container3"><div class="circle1"></div><div class="circle2"></div><div class="circle3"></div><div class="circle4"></div></div></div>';
-        var spinner03 = '<div class="fl fl-spinner spinner3"><div class="dot1"></div><div class="dot2"></div></div>';
-        var spinner04 = '<div class="fl fl-spinner spinner4"></div>'; 
+        var spinner03 = '<div class="fl fl-spinner spinner1" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; background: url(\'bgloader.jpg\') center/cover;"><img src="hutao1.png" alt="Logo" style="width: 20rem; height: 20rem; animation: zoomInOut 2s infinite;"></div>';
         var spinner05 = '<div class="fl fl-spinner spinner5"><div class="cube1"></div><div class="cube2"></div></div>'; 
         var spinner06 = '<div class="fl fl-spinner spinner6"><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div>'; 
         var spinner07 = '<div class="fl fl-spinner spinner7"><div class="circ1"></div><div class="circ2"></div><div class="circ3"></div><div class="circ4"></div></div>'; 
