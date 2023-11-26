@@ -440,7 +440,9 @@ section {
   /* ... Kode CSS sebelumnya ... */
   .photo-gallery {
     color: #313437;
-    background-color: #fff;
+    background-color:  #f5f8fd;
+    height:90vh;
+    padding-bottom:0;
   }
   
   #lightbox {
@@ -448,9 +450,8 @@ section {
   }
   .photo-gallery h2 {
     font-size: 32px;
+    padding-top:45px;
     font-weight: bold;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
     position: relative;
     color: #173b6c;
   }
