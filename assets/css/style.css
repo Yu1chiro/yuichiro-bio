@@ -446,14 +446,24 @@ section {
   #lightbox {
     padding-top: 6rem !important;
   }
-  
   .photo-gallery h2 {
-    margin-bottom: 25px;
-    padding-top: 25px;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
   }
-  
+  .photo-gallery h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+  }
   .photo-gallery .intro {
     font-size: 16px;
     max-width: 500px;
