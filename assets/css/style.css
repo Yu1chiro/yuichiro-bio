@@ -435,8 +435,68 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
+  /* ... Kode CSS sebelumnya ... */
+  .photo-gallery {
+    color: #313437;
+    background-color: #fff;
+  }
+  
+  #lightbox {
+    padding-top: 6rem !important;
+  }
+  
+  .photo-gallery h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .photo-gallery .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto 40px;
+  }
+  
+  .photo-gallery .intro p {
+    margin-bottom: 0;
+  }
+  
+  .photo-gallery .photos {
+    padding-bottom: 20px;
+  }
+  
+  .photo-gallery .item {
+    padding-bottom: 30px;
+  }
+  
+  @media (max-width: 767px) {
+    .photo-gallery .item {
+      height:80px;
+      width:80px;
+      align-items: center;
+      justify-content: center; /* Pusatkan gambar pada tampilan smartphone dan tablet */
+      display: flex;
+      flex-direction: column; /* Mengatur agar gambar turun ke bawah */
+    }
+  }
+  
+  .lb-dataContainer .lb-data {
+    color: #ffff;
+    font-weight: bold;
+  }
+  
+
+
+
+
+
+
+
+
+/* end */
 .skills .progress {
   height: 60px;
   display: block;
