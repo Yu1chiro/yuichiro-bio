@@ -1,0 +1,112 @@
+/* Dark Mode */
+/* Dark Mode Styles for Headings */
+[data-bs-theme='dark'] .about .content  p {
+    color: #ffff;
+  }
+  [data-bs-theme='dark'] .count-box .infp {
+    color: #ffff;
+  }
+  [data-bs-theme='dark'] .count-box strong {
+    color: #ffff;
+  }
+  [data-bs-theme='dark'] .count-box .purecounter {
+    color: #ffff;
+  }
+  [data-bs-theme='dark'] .count-box .icon-smile {
+    color: #ffff;
+  }
+  [data-bs-theme='dark'] .count-box .bi-journal-richtext {
+    color: #ffff;
+  }
+  [data-bs-theme='dark'] .about .content h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #ffff;
+  }
+  [data-bs-theme='dark'] .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #ffff;
+  }
+  
+  [data-bs-theme='dark'] .section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background:#149ddd;
+    bottom: 0;
+    left: 0;
+  }
+  
+  [data-bs-theme='dark'] .photo-gallery {
+    background-color:  #272829;
+    height:80vh;
+    padding-bottom:0;
+  }
+  [data-bs-theme='dark']
+  .photo-gallery h2 {
+    font-size: 32px;
+    padding-top:45px;
+    font-weight: bold;
+    position: relative;
+    color: #ffff;
+  }
+  [data-bs-theme='dark'] .photo-gallery h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+  }
+  [data-bs-theme='dark'] .resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffff;
+}
+  [data-bs-theme='dark'] .resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #ffff;
+    margin-bottom: 10px;
+}
+  [data-bs-theme='dark'] .resume .resume-item .Hera {
+    color:#ffff;
+  }
+
+  [data-bs-theme='dark'] .resume-item h5 {
+    font-size: 16px;
+    color: #ffff;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    background-color:#272829;
+  }
+  
+  [data-bs-theme='dark'] .resume-item p {
+   color:#ffff;
+  }
+  [data-bs-theme='dark'] .services .title a {
+    color: #ffff;
+}
+
+/* Lanjut sampai segmen portfolio */
+
+  /* Dark Mode Styles for List Items */
+  [data-bs-theme='dark'] li {
+    color: #fff; /* Set your dark list item text color */
+  }
+  
