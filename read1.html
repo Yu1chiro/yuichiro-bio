@@ -23,10 +23,12 @@
 <body>
     <style>
        body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Work Sans', sans-serif;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            background-color: #272829;
+
         }
 
         main {
@@ -50,6 +52,7 @@
             margin-bottom: 10px;
             font-family: 'Work Sans', sans-serif;
             font-weight: 700;
+            color: #ffff;
 
         }
 
@@ -58,15 +61,28 @@
             line-height: 1.5;
             margin-bottom: 10px;
             font-family: 'Work Sans', sans-serif;
+            color: #ffff;
 
         }
 
         footer {
             text-align: center;
             padding: 10px;
-            background-color: #f2f2f2;
+            max-width: 100%;
+            background-color: #272829;
             font-family: 'Work Sans', sans-serif;
 
+        }
+        footer p {
+            text-align: center;
+            padding: 10px;
+            max-width: 100%;
+            color: #ffff;
+            font-family: 'Work Sans', sans-serif;
+
+        }
+        .footer {
+            padding-top: 2rem;
         }
 
         /* Media Queries */
@@ -102,10 +118,11 @@
 
         <!-- Add more blog posts as needed -->
     </main>
-
+    <div class="footer">
     <footer>
         <p>&copy; Yuichiro 2023</p>
     </footer>
+</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
