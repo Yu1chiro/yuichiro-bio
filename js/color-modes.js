@@ -21,7 +21,7 @@
   
     const setTheme = theme => {
       if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: light)').matches) {
-        document.documentElement.setAttribute('data-bs-theme', 'dark')
+        document.documentElement.setAttribute('data-bs-theme', 'light')
       } else {
         document.documentElement.setAttribute('data-bs-theme', theme)
       }

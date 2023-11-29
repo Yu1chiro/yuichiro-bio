@@ -85,6 +85,56 @@
   [data-bs-theme='dark'] .resume .resume-item .Hera {
     color:#ffff;
   }
+  [data-bs-theme='dark'] .section-bg {
+    background: #272829;
+  }
+  [data-bs-theme='dark'] .info h4 {
+    color:#ffff;
+  }
+  [data-bs-theme='dark'] .info p {
+    color:#ffff;
+  }
+  [data-bs-theme='dark'] .contact .info i {
+    font-size: 20px;
+    color: #ffff;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #272829;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px #ffff;
+    transition: all 0.3s ease-in-o
+  }
+  [data-bs-theme='dark'] .contact .info {
+    padding: 30px;
+    background: #272829;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  }
+  [data-bs-theme='dark'] .contact .form-label.nama-form {
+    color: #fff !important;
+  }
+  
+  [data-bs-theme='dark'] .contact .form-label.email-form {
+    color: #fff !important;
+  }
+  
+  [data-bs-theme='dark'] .contact .form-label.pesan-form {
+    color: #fff !important;
+  }
+  
+  [data-bs-theme='dark'] .contact .form-label {
+    border-color: #fff !important;
+  }
+  
+  [data-bs-theme='dark'] .contact .form-control.border-black {
+    border-color: #fff !important;
+  }
+  
+  
+  
 
   [data-bs-theme='dark'] .resume-item h5 {
     font-size: 16px;
@@ -99,7 +149,16 @@
   [data-bs-theme='dark'] .resume-item p {
    color:#ffff;
   }
+  [data-bs-theme='dark'] .portfolio.section-bg p {
+   color:#ffff;
+  }
   [data-bs-theme='dark'] .services .title a {
+    color: #ffff;
+}
+  [data-bs-theme='dark'] .alert strong {
+    color: #ffff;
+}
+  [data-bs-theme='dark'] .alert.btn-close {
     color: #ffff;
 }
 
