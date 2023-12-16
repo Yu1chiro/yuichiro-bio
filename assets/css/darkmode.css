@@ -155,11 +155,15 @@
   [data-bs-theme='dark'] .services .title a {
     color: #ffff;
 }
+ 
   [data-bs-theme='dark'] .alert strong {
     color: #ffff;
 }
   [data-bs-theme='dark'] .alert.btn-close {
     color: #ffff;
+}
+[data-bs-theme='dark'] .services p {
+  color: #ffff;
 }
 
 /* Lanjut sampai segmen portfolio */
