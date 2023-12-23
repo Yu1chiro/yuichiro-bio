@@ -59,7 +59,6 @@
         });
 
         setTimeout(function () {
-            window.location.href = "hera.html";
             $(el).fadeOut();
         }, settings.timeToHide);
     }; 
