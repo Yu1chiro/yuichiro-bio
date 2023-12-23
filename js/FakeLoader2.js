@@ -59,6 +59,7 @@
         });
 
         setTimeout(function () {
+            window.location.href = "gallery.html";
             $(el).fadeOut();
         }, settings.timeToHide);
     }; 
